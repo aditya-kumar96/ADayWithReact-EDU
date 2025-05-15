@@ -15,7 +15,7 @@ function SearchBar({onSubmit}) {
     setSearch(event.target.value)
   }
   
-  //UI for input
+  //UI for input for the search Bar
   return <div>
     <form onSubmit={handleClick}>
     <input type="text" placeholder="Search for Images" onChange={handleChanges} />

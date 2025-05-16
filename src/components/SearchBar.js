@@ -18,8 +18,8 @@ function SearchBar({onSubmit}) {
   //UI for input for the search Bar
   return <div>
     <form onSubmit={handleClick}>
-    <input type="text" placeholder="Search for Images" onChange={handleChanges} />
-    <button >Search</button>
+    <input value={search} placeholder="Search for Images" onChange={handleChanges} />
+    {/* <button >Search</button> */}
     </form>
     </div>;
 }

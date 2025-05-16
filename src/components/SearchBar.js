@@ -16,10 +16,11 @@ function SearchBar({onSubmit}) {
   }
   
   //UI for input for the search Bar
+  //update the input and add the value so whatever the user input value it will update simontenously
   return <div>
     <form onSubmit={handleClick}>
     <input value={search} placeholder="Search for Images" onChange={handleChanges} />
-    {/* <button >Search</button> */}
+  
     </form>
     </div>;
 }

@@ -7,7 +7,7 @@ function SearchBar({onSubmit}) {
   const handleClick=(event)=>{
     event.preventDefault()
     onSubmit(search)
-    console.log('new search is',search)
+    
     
   }
 //change the state
@@ -18,13 +18,13 @@ function SearchBar({onSubmit}) {
   
   //UI for input for the search Bar
   //update the input and add the value so whatever the user input value it will update simontenously
-  return <div>
+  return (<div>
     <form onSubmit={handleClick}>
     <input value={search} placeholder="Search for Images" onChange={handleChanges} />
-    <text>values are {term}</text>
+    
     {/* <button >Search</button> */}
     </form>
-    </div>;
+    </div>)
 }
 
 export default SearchBar;

@@ -12,7 +12,7 @@ function SearchBar({onSubmit}) {
   }
 //change the state
   const handleChanges=(event)=>{
-    setSearch(event.target.value)
+    setSearch(event.target.value.replace(/[a-z]/,''))
   }
   
   //UI for input for the search Bar

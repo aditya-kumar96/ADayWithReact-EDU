@@ -12,7 +12,8 @@ function SearchBar({onSubmit}) {
   }
 //change the state
   const handleChanges=(event)=>{
-    setSearch(event.target.value.replace(/[a-z]/,''))
+    // add replace() to prevent the lowercase
+    setSearch(event.target.value)
   }
   
   //UI for input for the search Bar
@@ -20,6 +21,7 @@ function SearchBar({onSubmit}) {
   return <div>
     <form onSubmit={handleClick}>
     <input value={search} placeholder="Search for Images" onChange={handleChanges} />
+    <text>values are {term}</text>
     {/* <button >Search</button> */}
     </form>
     </div>;

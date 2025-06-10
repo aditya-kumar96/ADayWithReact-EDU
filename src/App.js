@@ -16,6 +16,7 @@ function App() {
     <SearchBar
     onSubmit={handleSubmit}
     />
+    {/* added ImageList Component to show the images  */}
     <ImageList images={images}/>
   </div>)
 }

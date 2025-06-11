@@ -1,3 +1,4 @@
+import './SearchBar.css'
 import { useState } from "react";
 
 function SearchBar({onSubmit}) {
@@ -18,8 +19,10 @@ function SearchBar({onSubmit}) {
   
   //UI for input for the search Bar
   //update the input and add the value so whatever the user input value it will update simontenously
-  return (<div>
+  return (<div className='search_bar'>
     <form onSubmit={handleClick}>
+      {/* added label and css for better UI/UX experience */}
+      <label>Search Here for images</label>
     <input value={search} placeholder="Search for Images" onChange={handleChanges} />
     
     {/* <button >Search</button> */}

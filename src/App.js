@@ -1,10 +1,10 @@
 import { useState } from "react";
 import BookCreate from './components/BookCreate'
-import "./App.css";
 
 function App() {
   const [books,setBooks] = useState([])
   const createBook=(title)=>{
+    //Bad Code 
     console.log(title)
   }
   return (

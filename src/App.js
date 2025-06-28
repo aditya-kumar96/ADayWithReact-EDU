@@ -2,7 +2,7 @@ import Button from "./component/Button";
 
 function App(){
     return <div>
-
+//not updated
         <div>
             <Button primary secondary>Click Me </Button>
         </div>

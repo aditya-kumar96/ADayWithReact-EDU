@@ -7,7 +7,7 @@ function App(){
             <Button primary secondary>Click Me </Button>
         </div>
         <div>
-            <Button>Buy Now </Button>
+            <Button success warning>Buy Now </Button>
         </div>
         <div>
             <Button>See Deal </Button>

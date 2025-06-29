@@ -10,7 +10,7 @@ function App(){
             <Button success >Buy Now </Button>
         </div>
         <div>
-            <Button>See Deal </Button>
+            <Button danger> See Deal </Button>
         </div>
         <div>
             <Button>Hide Ads </Button>

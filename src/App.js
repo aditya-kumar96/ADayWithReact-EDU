@@ -1,25 +1,34 @@
-import Accordion from "./component/Accordion";
-import Button from "./component/Button";
-import { GoBell, GoCloudDownload, GoDatabase } from 'react-icons/go'
+import { useState } from "react";
+import Dropdown from "./component/Dropdown";
 
 function App() {
-    const items= [
+    const [selection, setSelection] = useState(null)
+    const handleSelction = (option) => {
+        console.log(option)
+        setSelection(option)
+    }
+    const Options = [
         {
-            id:'1dd',
-            label: 'Home',
-            content: 'Here is the Home'
+            label: 'Menu 1',
+            value: 'menu1'
         },
         {
-            id:'23',
-            label: 'Menu',
-            content: 'Here is the Menu'
+            label: 'Menu 2',
+            value: 'menu2'
         },
         {
-            id:'dfjh',
-            label: 'Settings',
-            content: 'Here is the Settings'
+            label: 'Menu 3',
+            value: 'menu3'
         },
+        {
+            label: 'Menu 4',
+            value: 'menu4'
+        }
     ]
-    return <Accordion items={items} />
+    return <Dropdown
+        options={Options}
+        onSelect={handleSelction}
+        selection={selection}
+    />
 }
 export default App;

@@ -3,10 +3,14 @@ import Dropdown from "./component/Dropdown";
 
 function App() {
     const [selection, setSelection] = useState(null)
+    
+
     const handleSelction = (option) => {
-        console.log(option)
+        
         setSelection(option)
     }
+
+
     const Options = [
         {
             label: 'Menu 1',
@@ -25,10 +29,17 @@ function App() {
             value: 'menu4'
         }
     ]
-    return <Dropdown
+    return <div  className="flex">
+    <Dropdown
         options={Options}
-        onSelect={handleSelction}
-        selection={selection}
+        onChange={handleSelction}
+        value={selection}
     />
+    <Dropdown
+        options={Options}
+        onChange={handleSelction}
+        value={selection}
+    />
+    </div>
 }
 export default App;

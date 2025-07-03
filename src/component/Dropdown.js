@@ -9,13 +9,10 @@ function Dropdown({ options, value, onChange }) {
 
     const divEl = useRef()
     useEffect(()=>{
-        
         const handler=(event)=>{
             if(!divEl.current){
                 return;
             }
-
-
             if(!divEl.current.contains(event.target)){
                 setIsSelected(false)
             }

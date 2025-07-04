@@ -27,6 +27,7 @@ function Dropdown({ options, value, onChange }) {
         setIsSelected(false)
         onChange(option)
     }
+    //rendered Panel 
 
     const renderedItems = options.map((option) => {
         return (

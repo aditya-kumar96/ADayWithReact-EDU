@@ -1,7 +1,5 @@
 
 import Accordion from "../component/Accordion";
-import Button from "./component/Button";
-import { GoBell, GoCloudDownload, GoDatabase } from 'react-icons/go'
 
 function AccordionPage() {
     const items= [

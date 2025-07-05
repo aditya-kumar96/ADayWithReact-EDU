@@ -5,7 +5,7 @@ import Button from '../component/Button';
 function ButtonPage() {
     //not udpated but may be now update ?
     const handleClick=()=>{
-        console.log('click')
+        
     }
     return <div>
         <div>

@@ -1,16 +1,11 @@
 import { useState } from "react";
-import Dropdown from "./component/Dropdown";
+import Dropdown from "../component/Dropdown";
 
 function DropdownPage() {
     const [selection, setSelection] = useState(null)
-    
-
     const handleSelction = (option) => {
-        
         setSelection(option)
     }
-
-
     const Options = [
         {
             label: 'Menu 1',

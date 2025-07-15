@@ -1,106 +1,70 @@
-# 🎓 ADayWithReact-EDU
+# Getting Started with Create React App
 
-**ADayWithReact-EDU** is a beginner-friendly React starter project crafted for learners and educators. It provides a modern, lightweight, and powerful development setup using **Vite**, **Tailwind CSS**, and **modular React components**, making it the perfect foundation for hands-on learning and experimentation with React.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## ✨ Why ADayWithReact-EDU?
+In the project directory, you can run:
 
-This project is designed to help you get started quickly with modern React practices, including component reuse, clean code, and optimized performance.
+### `npm start`
 
-### 🚀 Core Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- 🎨🚀 **Tailwind CSS Integration**  
-  Effortlessly style your components with utility-first CSS classes for consistent and responsive designs.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- ⚡🚀 **Vite-powered Development**  
-  Lightning-fast startup, instant HMR (Hot Module Replacement), and optimized build for a seamless developer experience.
+### `npm test`
 
-- 🛠️🧩 **Modular Components**  
-  Reusable and customizable components (like buttons, cards, etc.) to encourage scalable and maintainable UI development.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- 🧾🛡️ **ESLint Configuration**  
-  Maintain high code quality with an integrated ESLint setup customized for React.
+### `npm run build`
 
-- 🖥️🗂️ **Clear Project Structure**  
-  Organized directory layout for smooth navigation and easy extension as your project grows.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 📂 Folder Structure
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-ADayWithReact-EDU/
-├── public/                 # Static assets like favicon, index.html
-├── src/
-│   ├── assets/             # Static files like images and icons
-│   ├── components/         # Reusable React components
-│   ├── pages/              # Application pages
-│   ├── styles/             # Global styles including Tailwind base config
-│   ├── App.jsx             # Root application component
-│   └── main.jsx            # App entry point
-├── .eslintrc.cjs           # ESLint configuration
-├── postcss.config.js       # PostCSS config (for Tailwind)
-├── tailwind.config.js      # Tailwind configuration
-├── vite.config.js          # Vite config
-├── package.json            # Project metadata and dependencies
-└── README.md               # You’re here!
+### `npm run eject`
 
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## 🛠️ Getting Started
-Follow these steps to set up and run the project locally:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-1. Clone the Repository
-```bash
-   git clone https://github.com/aditya-kumar96/ADayWithReact-EDU.git
-```
-2. Install Dependencies
-   
-   ```bash
-   npm install
-    ```
-3. Run the Development Server
+## Learn More
 
-   ```bash
-   npm run dev
-   ```
-   The app will start on http://localhost:5173/ (or the port specified by Vite).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 📦 Built With
- - React
- - Vite
- - Tailwind CSS
- - ESLint
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 🧑‍💻 Ideal For
-  - Students learning modern React
-  - Developers exploring Tailwind CSS
-  - Educators building interactive React lessons
-  - Beginners needing a production-like React playground
-## 🤝 Contributing
-  Contributions are welcome!
-  If you'd like to improve something or add new features:
-  1. Fork the project
-  2. Create a new branch:
-     ```bash
-      git checkout -b feature-name
-     ```
-  4. Make your changes and commit them
-  5. Push to the branch:
-     ```bash
-      git push origin feature-name
-      ```
-  7. Open a pull request
+### Code Splitting
 
-##  📄 License
-   This project is licensed under the [MIT License](LICENSE).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-##  👨‍💻 Author
-  Made with 💡 by [Aditya Kumar](https://github.com/aditya-kumar96)
-  Happy coding! ⚛️🔥
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Elsie Price",
+      "id": 3
+    },
+    {
+      "name": "Harold Strosin",
+      "id": 4
+    },
+    {
+      "name": "Winston Beer Jr.",
+      "id": 5
+    },
+    {
+      "name": "Miss Crystal Kemmer",
+      "id": 6
+    }
+  ],
+  "albums": [],
+  "photos": []
+}

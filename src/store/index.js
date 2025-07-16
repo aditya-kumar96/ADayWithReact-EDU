@@ -19,4 +19,4 @@ export * from './thunks/fetchUsers';
 export * from './thunks/addUser';
 export * from './thunks/removeUser';
 
-export {useFetchAlbumsQuery} from './api/albumApi'
+export {useFetchAlbumsQuery , useAddAlbumMutation} from './api/albumApi'

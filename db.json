@@ -19,9 +19,49 @@
   ],
   "albums": [
     {
-      "name": "Album Data",
-      "id": 10,
-      "userId":3
+      "userId": 3,
+      "title": "Ergonomic Soft Fish",
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "title": "Practical Concrete Pants",
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "title": "Fantastic Bronze Towels",
+      "id": 13
+    },
+    {
+      "userId": 3,
+      "title": "Gorgeous Soft Bike",
+      "id": 14
+    },
+    {
+      "userId": 3,
+      "title": "Electronic Granite Soap",
+      "id": 15
+    },
+    {
+      "userId": 3,
+      "title": "Small Frozen Cheese",
+      "id": 16
+    },
+    {
+      "userId": 3,
+      "title": "Elegant Cotton Tuna",
+      "id": 17
+    },
+    {
+      "userId": 3,
+      "title": "Rustic Frozen Computer",
+      "id": 18
+    },
+    {
+      "userId": 3,
+      "title": "Oriental Granite Bacon",
+      "id": 19
     }
   ],
   "photos": []

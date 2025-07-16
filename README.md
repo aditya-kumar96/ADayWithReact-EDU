@@ -95,8 +95,7 @@ Follow these steps to set up and run the project locally:
       ```
   7. Open a pull request
 
-##  📄 License
-   This project is licensed under the [MIT License](LICENSE).
+
 
 ##  👨‍💻 Author
   Made with 💡 by [Aditya Kumar](https://github.com/aditya-kumar96)

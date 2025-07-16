@@ -17,6 +17,12 @@
       "id": 6
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "name": "Album Data",
+      "id": 10,
+      "userId":3
+    }
+  ],
   "photos": []
 }

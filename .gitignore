@@ -1,3 +1,6 @@
+# Parcel cache (must be ignored to avoid pushing large files)
+.parcel-cache
+
 # Logs
 logs
 *.log
@@ -6,9 +9,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-.parcel-cache
 
-
+# Build output
 node_modules
 dist
 dist-ssr

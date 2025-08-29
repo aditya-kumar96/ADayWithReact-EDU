@@ -1,10 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import searchImage from './api'
-const el = document.getElementById('root');
-const root = ReactDOM.createRoot(el);
+import './index.css';
+import React from "react";
+import ReactDOM from 'react-dom/client'
+import App from "./App";
+import { NavigationProvider } from './context/navigation';
 
-root.render(<App />);
+const el  = document.getElementById('root')
+const root = ReactDOM.createRoot(el)
+root.render(
+<NavigationProvider>
+<App/>
+</NavigationProvider>
 
-// 8O50V7bNzfKdVixwS9W9nZVdr0VnrCv9gmeimfdvp6Y
+)

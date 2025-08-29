@@ -1,24 +1,27 @@
-import searchImages from "./api";
-import SearchBar from "./components/SearchBar";
-import ImageList from "./components/ImageList";
 import { useState } from "react";
-
+import Dropdown from "./component/Dropdown";
+import Link from "./component/Link";
+import Route from "./component/Route";
+import AccordionPage from './pages/AccordionPage'
+import DropdownPage from "./pages/DropdownPage";
+import ButtonPage from './pages/ButtonPage'
+import Sidebar from "./component/Sidebar";
 function App() {
-  const [images,setImages] = useState([])
-  const handleSubmit=async (search)=>{
-    
-    const result = await searchImages(search);
-    setImages(result)
-    
-  }
+    return <div className="container mx-auto grid grid-cols-6 gap-4 mt-4">
+        <Sidebar/>
+        <div className="col-span-5">
+            <Route path="/accordion">
+                <AccordionPage />
+            </Route>
+            <Route path="/dropdown">
+                <DropdownPage />
+            </Route>
+            <Route path="/buttons">
+                <ButtonPage />
+            </Route>
 
-  return( <div>
-    <SearchBar
-    onSubmit={handleSubmit}
-    />
-    {/* added ImageList Component to show the images  */}
-    <ImageList images={images}/>
-  </div>)
+        </div>
+
+    </div>
 }
-
 export default App;
